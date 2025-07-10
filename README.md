@@ -20,7 +20,10 @@ automated_sales_reports/
 │   ├── category_summary_sql.py   ← Script #1
 │   ├── top_products.py           ← Script #2
 │   └── repeated_products.py      ← Script #3
-└── README.md                     ← This file
+├── category_summary_chart.png    ← Chart for category summary
+├── top_10_products_chart.png     ← Chart for top products
+├── repeated_products_chart.png   ← Chart for repeated purchases
+└── README.md
 ```
 
 ---
@@ -34,6 +37,22 @@ automated_sales_reports/
 | `repeated_products.py`    | Finds products that were purchased more than once and summarizes their performance |
 
 All reports are saved as `.xlsx` files and ready to send to management.
+
+---
+
+## 📊 Visualizations
+
+### 📦 Revenue by Category
+
+![Revenue by Category](category_summary_chart.png)
+
+### 💰 Top 10 Products by Revenue
+
+![Top 10 Products](top_10_products_chart.png)
+
+### 🔁 Top 10 Repeatedly Purchased Products
+
+![Repeated Purchases](repeated_products_chart.png)
 
 ---
 
@@ -64,7 +83,9 @@ Reports will appear in the `reports/` folder.
 - SQLite integration in Python
 - Data analysis with `pandas`
 - Exporting Excel reports
+- Data visualization with `matplotlib` and `seaborn`
 - Code structuring & automation
+- Git + GitHub workflow
 
 ---
 
